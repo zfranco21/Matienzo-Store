@@ -55,7 +55,7 @@ Matienzo Store
 
 ## Demo
 
-Puedes explorar una versión en vivo del proyecto aquí: [Matienzo Store Demo](#) (Enlace a agregar).
+Puedes explorar una versión en vivo del proyecto aquí: [Matienzo Store Demo](https://matienzostore.netlify.app/src/remeras).
 
 ## Mejoras Futuras
 
