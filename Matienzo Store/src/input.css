@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #222B45;
+    color: white;
+}
+.kode-mono {
+    font-family: "kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.image {
+    border: 3px solid rgb(24, 206, 212);
+}
+
+.txt-c {
+    color: #21588f;
+}
+
+.txt-c:hover {
+    color: #4e99e4;
+}
+
+.start {
+    color: gold;
+}
+
+.p::first-letter {
+    background-color: #3b82f6; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    padding: 1.2rem; /* Añade espaciado alrededor de la letra */
+    border-radius: 100%; /* Añade bordes redondeados */
+}
+
+
+.s::first-letter {
+    background-color: #c835f5; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    padding: 1.2rem; /* Añade espaciado alrededor de la letra */
+    border-radius: 100%; /* Añade bordes redondeados */
+}
+
+.m::first-letter {
+    background-color: #35f585; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    padding: 1.2rem; /* Añade espaciado alrededor de la letra */
+    border-radius: 100%; /* Añade bordes redondeados */
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
